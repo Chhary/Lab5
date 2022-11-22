@@ -1,0 +1,124 @@
+body{
+    display: block;
+    margin: 8px;
+    margin-top:8px ;
+    margin-right: 0px;
+    margin-bottom:0px ;
+    margin-left:8spx ;
+}
+.background {
+    width: 42%;
+    border: 1px solid;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: initial;
+    border-right-color: initial;
+    border-bottom-color: initial;
+    border-left-color: initial;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    padding: 10px 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+h1{
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+    font-weight: bold;
+}
+ul{
+    list-style: none;
+    list-style-position: initial;
+    list-style-image: initial;
+    list-style-type: none;
+    margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+
+    padding: 0;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+
+    width: 230px;
+    background-color: beige;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+li{
+    display: block;
+    padding: 8px 16px;
+     padding-top: 8px;
+     padding-right: 16px;
+     padding-bottom: 8px;
+     padding-left: 16px;
+
+     text-decoration: none;
+      text-decoration-line: initial;
+      text-decoration-style: initial;
+      text-decoration-color: initial;
+}
+div{
+    display: block;
+}
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    padding-top: 8px;
+    padding-right: 16px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-line: 2px;
+    text-decoration-thickness: 0px;
+    text-decoration-style: 0px;
+    text-decoration-color: 0px;
+}
+li {
+    text-align: -webkit-match-parent;
+}
+html {
+    display: block;
+}
+ul {
+    list-style-type: disc;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
